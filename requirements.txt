@@ -1,0 +1,12 @@
+# AgentScan Dependencies
+
+# Core
+rich>=13.0.0        # Beautiful terminal output
+pydantic>=2.0.0     # Data validation
+
+# Analysis
+astroid>=3.0.0      # Advanced AST analysis (optional, for future enhancements)
+
+# Testing (for development)
+pytest>=7.0.0       # Test framework
+pytest-cov>=4.0.0   # Coverage reporting
