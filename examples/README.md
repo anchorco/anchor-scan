@@ -1,6 +1,6 @@
 # Example Agents - Framework Support Demonstration
 
-This directory contains example agents demonstrating Agentscan's support for various AI agent frameworks.
+This directory contains example agents demonstrating AnchorScan's support for various AI agent frameworks.
 
 ## Framework Examples
 
@@ -87,9 +87,9 @@ Test:
 python analyze.py examples/custom_python_agent.py
 ```
 
-## How Agentscan Works with Your Frameworks
+## How AnchorScan Works with Your Frameworks
 
-Agentscan is framework-agnostic. It works by:
+AnchorScan is framework-agnostic. It works by:
 
 1. AST Parsing: Parses Python source code into Abstract Syntax Trees
 2. Pattern Detection: Detects governance patterns (logging, secrets, error handling, etc.) regardless of framework
@@ -126,5 +126,5 @@ done
 
 - These examples may not run without proper API keys
 - Framework detection is informational - governance pattern detection works regardless
-- Agentscan analyzes code structure, not runtime behavior
+- AnchorScan analyzes code structure, not runtime behavior
 - Custom implementations may not be detected
